@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .interest {
+            color: white;
+            background-color: coral;
+            width: 550px;
+            text-align: center;
+            height: 50px;
+            line-height: 50px;
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        .like {
+            width: 450px;
+            border: 1px;
+            background-color: blanchedalmond;
+        }
+        .like>div {
+            width: 150px;
+            display: flex;
+            color: coral;
+        }
+        pre {
+            font: 20px;
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="interest">
+            <p >SỞ THÍCH CỦA BẠN</p>
+        </div>
+        <div class="name" style="display: flex; margin-bottom: 20px;">
+            <pre>Họ và tên     </pre>
+            <input type="text" name="yourname" id="">
+        </div>
+    </div>
+    <div class="email" style="display: flex; margin-bottom: 20px;">
+        <pre>Email            </pre>
+        <input type="text" name="email" id="">
+    </div>
+    </div>
+    <div style="display: flex;">
+        <div class="box-like" style="color: blue; font-family: Arial, Helvetica, sans-serif;">Sở thích  </div>
+        <div class="like" style="display: flex; flex-wrap: wrap; margin-left: 30px;">
+            <div>
+                <input type="checkbox" name="sport" id=""> <p>Thể Thao</p> 
+            </div>
+            <div>
+                <input type="checkbox" name="music" id=""> <p>Âm Nhạc</p>
+            </div>
+            <div>
+                <input type="checkbox" name="book" id=""> <p>Đọc Sách</p> 
+            </div>
+            <div>
+                <input type="checkbox" name="web" id=""> <p>Lướt Web</p> 
+            </div>
+            <div>
+                <input type="checkbox" name="game" id=""> <p>Chơi game</p> 
+            </div>
+            <div>
+                <input type="checkbox" name="film" id=""> <p>Điện ảnh</p> 
+            </div>
+            <div>
+                <input type="checkbox" name="travel" id=""> <p>Du lịch</p>
+            </div>
+        </div>
+    </div>
+    <div class="button" style="margin-top: 20px; margin-left: 100px;">
+       <button type="submit">Gửi thông tin</button>
+       <button type="reset">Nhập lại</button>
+    </div>
+
+    </div>
+
+    <div class="sigup" style="width: 500px; background-color: rgba(255,252,173,255); height: 600px; margin-top: 50px; margin-left: 50px;" >
+        <div class="sigup-box" style="width: 95%; background-color: rgba(214,252,215,255); margin-left: 2.5%; margin-top: 5px;">
+            <h1>ĐĂNG KÝ HỌC VIÊN</h1>
+        </div>
+        <div class="name" style="display: flex; margin-bottom: 20px;">
+            <pre>Họ và tên     </pre>
+            <input type="text" name="yourname" id="">
+        </div>
+        <div class="email" style="display: flex; margin-bottom: 20px;">
+            <pre>Ngày sinh    </pre>
+            <input type="text" name="email" id="">
+        </div>
+        <div style="display: flex; flex-wrap: wrap ;">
+            <h3>Giới tính:</h3>
+            <input type="radio" name="gender" id=""><p>Nam</p>  
+            <input type="radio" name="gender" id=""><p>Nữ</p> 
+        </div>
+        <div class="address" style="display: flex; margin-bottom: 20px;">
+            <pre>Địa chỉ         </pre>
+            <input type="text" name="email" id="">
+        </div>
+        <div class="room" style="display: flex; margin-bottom: 20px;">
+            <pre>Lớp             </pre>
+            <select>
+                <option>--Chọn lớp--</option>
+                <option>Lớp 01</option>
+                <option>Lớp 02</option>
+                <option>Lớp 03</option>
+                <option>Lớp 03</option>
+            </select>
+        </div>
+        <div class="name" style="display: flex; margin-bottom: 20px;">
+            <pre>Email          </pre>
+            <input type="text" name="email" id="">
+        </div>
+        <div class="phone" style="display: flex; margin-bottom: 20px;">
+            <pre>Điện thoại  </pre>
+            <input type="number" name="phone" id="">
+        </div>
+        <div class="button" style="margin-top: 20px; margin-left: 100px;">
+            <button type="submit">Đăng ký</button>
+            <button type="reset">Nhập lại</button>
+         </div>
+    </div>
+
+</body>
+
+</html>
